@@ -1,0 +1,7 @@
+<!-- <p>
+  parent works!
+</p> -->
+
+<app-childinput [input]="txt" (getValues)="getValue($event)"></app-childinput>
+
+<app-childlist [arr]="arr1" [counter]="count" (delList)="delete($event)" [title]="txt" (changeList)="change($event)"></app-childlist>
