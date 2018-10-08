@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>animate函数封装</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#box{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position:absolute;
+			left:0;
+			top: 0;
+		}
+	</style>
+	<script src="2-animate函数.js"></script>
+</head>
+<body>
+	<div id="box"></div>
+</body>
+<script>
+	var box=document.getElementById("box");
+	box.onclick=function(){
+		animate(box,{left:500,top:300,opacity:20},function(){
+			console.log(1);
+		});
+//匀速运动
+//		setInterval(function(){
+//			var now=parseInt(getStyle(box,'left'));
+//			var now2=parseInt(getStyle(box,'top'));
+//			if(now==500){
+//				clearInterval(timer)
+//			}
+//			else{
+//			box.style.left=now + 1+ "px";
+//			box.style.top=now2 + 1 +"px";
+//			}
+//		},30)
+//变速运动
+// 		var timer=setInterval(function(){
+// 			var now=parseInt(getStyle(box,'left'));
+// 			var speed=(300-now)/6; 
+// 			console.log(now);
+// 			speed=speed>0?Math.ceil(speed):Math.floor(speed);
+// 			console.log(now);
+// 			if(now==300){
+//				clearInterval(timer)
+//			}
+//			else{
+//				box.style.left=now + speed+ "px";
+//			}
+// 		},30)
+	}
+	
+	
+</script>
+</html>
