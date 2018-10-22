@@ -1,0 +1,29 @@
+.container{
+    width:1000px;
+    float: left;
+    margin-top:20px;
+    margin-left:350px;
+}
+.pic{
+    width:600px;
+    height:300px;
+}
+.pho{
+    float: left;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+}
+li{
+    float: left;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+span{
+    margin-left: 250px;
+}
+p{
+    width: 600px;
+    word-wrap:break-word; 
+    word-break:break-all; 
+}

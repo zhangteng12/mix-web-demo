@@ -1,0 +1,102 @@
+<!--
+<fieldset>
+<h1>{{title}}</h1>
+<input type="text" [(ngModel)]="todo" placeholder="添加Todo" (keydown)='addTodo($event)' required="required">
+</fieldset>
+<h3>正在进行    {{doing.length}}</h3>
+<ul>
+  <li *ngFor="let item of doing;let key=index;">
+    <input type="checkbox" (click)="movetodo(key,true)">
+    {{item.todo}}
+    <button (click)="deltodo(key,true)">删除</button>
+  </li>
+</ul>
+
+<h3>已经完成    {{doned.length}}</h3>
+<ul>
+  <li *ngFor="let item of doned;let key=index;">
+    <input type="checkbox"  (click)="movetodo(key,false)" check="checked">
+    {{item.todo}}
+    <button (click)="deltodo(key,false)">删除</button>
+  </li>
+</ul>
+-->
+
+<!-- 1.写输入框标签，绑定键盘事件
+<input type="text" (keydown)="getValue($event)" [(ngModel)]="txt">
+  
+<h3>正在进行<span>{{arr.length}}</span></h3>
+2.写入待办事件呈现列表
+<ul>
+  <li *ngFor="let item of arr;let i=index;">
+    <input type="checkbox" (click)="change(i)">
+    {{item}}
+    3.删除按钮绑定点击事件 
+     <button (click)="delete(i)">删除</button>
+  </li>
+</ul>
+
+<h3>已经完成<span>{{arr1.length}}</span></h3>
+<ul>
+  <li *ngFor="let item of arr;let i=index;"></li>
+  <input type="checkbox" checked>
+    {{item}} 
+    3.删除按钮绑定点击事件
+     <button (click)="delete(i)">删除</button>
+</ul> -->
+
+
+
+<!-- 1.写输入框标签，绑定键盘事件-->
+<!-- <input type="text" (keydown)="getValue($event)" [(ngModel)]="txt">
+  
+<h3>正在进行<span>{{arr.length-counter}}</span></h3> -->
+<!-- 2.写入待办事件呈现列表 -->
+<!-- <ul>
+
+  <ng-container *ngFor="let item of arr;let i=index;">
+    <li *ngIf="!item.done">
+        <input type="checkbox" (click)="change(i)">
+        {{item.title}} -->
+        <!-- 3.删除按钮绑定点击事件  -->
+        <!-- <button (click)="delete(i)">删除</button>
+    </li>
+  </ng-container>
+
+</ul>
+
+<h3>已经完成<span>{{counter}}</span></h3>
+<ul>
+   
+    <ng-container *ngFor="let item of arr;let i=index;">
+        <li *ngIf="item.done">
+            <input type="checkbox" (click)="change(i)" checked>
+            {{item.title}} -->
+             <!-- 3.删除按钮绑定点击事件 -->
+            <!-- <button (click)="delete(i)">删除</button>
+        </li>
+      </ng-container>
+      
+</ul> -->
+
+<!-- <app-todolist></app-todolist> -->
+<!-- <app-parent></app-parent> -->
+
+<!-- 可以在这里写导航 -->
+<app-header></app-header>
+<router-outlet></router-outlet>
+
+<!-- 
+浮动原理
+BFC、IFC
+边距重合
+高度剔除 -->
+
+<!-- 构造函数、原型
+数据类型
+DOM节点操作、属性
+页面优化、页面回流、页面重绘
+文档碎片
+正则
+解构
+数组、字符串的方法 -->

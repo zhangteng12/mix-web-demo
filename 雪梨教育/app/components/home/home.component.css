@@ -1,0 +1,58 @@
+.left{
+    float:left;
+    margin-left: 150px;
+}
+.left-top{
+    margin:10px 45px;
+}
+.left-bottom{
+    margin:20px 20px;
+}
+.left-bottom li{
+    margin:5px;
+}
+.left-bottom li:hover{
+    background-color: orange;
+}
+.left-bottom span{
+    margin-left:80px;
+}
+.right{
+    float:left;
+    margin-left:400px;
+    margin-top:-450px;
+}
+.task{
+    float: left;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+}
+span{
+    margin-left:400px;
+}
+.right li{
+    float:left;
+    margin:5px;
+}
+.right input{
+    margin-left:150px;
+}
+.right li:hover{
+    background-color: rgb(182, 179, 179);
+    cursor: pointer;
+    border-top: solid orangered 3px;
+}
+.container{
+    margin-top: 30px;
+}
+img{
+    width: 180px;
+    height:180px;
+}
+p{
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+<nav>
+<ul class="nav">
+  <img src="http://www.edu2act.net/static/img/logo.png" [routerLink]="['/home']">
+  <li><a [routerLink]="['/home']">首页</a></li>
+  <li><a [routerLink]="['/tongbu']">同步课</a></li>
+  <li><a [routerLink]="['/course']">课程</a></li>
+  <li><a [routerLink]="['/shequ']" [queryParams]="{id:800,name:'ll'}">社区</a></li>
+  <input type="search" value="搜索课程">
+</ul>
+</nav>

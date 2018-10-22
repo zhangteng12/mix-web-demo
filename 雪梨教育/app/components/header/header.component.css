@@ -1,0 +1,24 @@
+nav{
+    height:45px;
+    background-color: gainsboro;
+}
+.nav{
+    width:1200 px;
+}
+.nav li{
+    float:left;
+    margin:0 10px;
+    cursor:pointer; /*划上去是手指 */
+}
+.nav li:hover{
+    border-top: solid orangered 3px;
+}
+img{
+    float: left;
+    margin-top: 2px;
+    margin-left: 250px;
+    margin-right:230px;
+}
+input{
+    margin-top:8px;
+}

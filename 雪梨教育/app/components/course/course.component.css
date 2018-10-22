@@ -1,0 +1,29 @@
+.container{
+    width:1100px;
+    margin:0 auto;
+    float: left;
+    margin-top:20px;
+    margin-left: 212px;
+}
+.container li{
+    width: 230px;
+    height:255px;
+    float:left;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: solid 1px gray;
+}
+a{
+    text-decoration: none;
+    color: rgb(94, 91, 91);
+}
+a:hover{
+    cursor: pointer;
+}
+img{
+    height:120px;
+    width: 100%;
+}
+span{
+    margin-right:100px;
+}

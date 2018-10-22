@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="left">
+      <ul>
+        <li *ngFor="let shequ of shequs;">
+          <a [routerLink]="['/shequ',shequ.id]">
+            <img src="{{shequ.picture}}" alt="" class="img1">
+            <div class="part">
+              <img src="{{shequ.images}}" alt="" class="img2">
+              <h4>{{shequ.task}}</h4><br><br>
+              <p>{{shequ.thing}}</p>
+              <ul>
+                <li>{{shequ.person}}</li>
+                <li>{{shequ.date}}</li>
+                <span>
+                <li>阅读{{shequ.read}}</li>
+                <li>评论{{shequ.comment}}</li>
+                </span>
+              </ul>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  <div class="right">
+    <h3>热门话题</h3>
+    <ul>
+      <li>#2015级程序设计基...#</li>
+      <li>#2015级面向对象程...#</li>
+      <li>#cms与模板制作#</li>
+      <li>#数据结构#</li>
+      <li>#数据库原理(5.6...#</li>
+      <li>#2014级PHP程序...#</li>
+      <li>#Web开发(二)20...#</li>
+      <li>#数据库系统概论...#</li>
+      <li>#Web开发(二)20...#</li>
+      <li>#Web开发(一)20...#</li>
+    </ul>
+  </div>
+</div>

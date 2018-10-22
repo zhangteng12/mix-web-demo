@@ -1,0 +1,63 @@
+.container{
+    width:1100px;
+    margin:0 auto;
+    float: left;
+    margin-top:20px;
+    margin-left: 212px;
+}
+.left{
+    width: 700px;
+    float:left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.left li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* .left li:hover{
+    border:solid orange 1px;
+} */
+img{
+    float: left;
+}
+.part{
+    float: left;
+    border-left: solid rgb(216, 213, 213) 1px;
+    border-bottom: solid rgb(216, 213, 213) 1px;
+}
+.img1{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+.img2{
+    width:70px;
+    height:80px;
+    margin-top: 5px;
+}
+span{
+    float: left;
+    margin-left:350px;
+    margin-top: -20px;
+}
+h4{
+    float: left;
+}
+.right{
+    float:left;
+    margin-top: 0px;
+    margin-left:30px;
+}
+p{
+    width:500px;
+    height: 20px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/  
+    white-space:nowrap;
+}

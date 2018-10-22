@@ -1,0 +1,24 @@
+.container{
+    width:1100px;
+    margin:0 auto;
+    float: left;
+    margin-top:20px;
+    margin-left: 212px;
+}
+.list li{
+    float:left;
+    margin-left:30px;
+    border-right: solid rgb(202, 199, 199) 1px;
+}
+.list li:hover{
+    border-top:solid rgb(255, 102, 0) 2.5px;
+}
+.active{
+    color: red;
+    font-size:50px;
+}
+button{
+    background-color: rgb(247, 106, 12);
+    font-size: 19px;
+}
+

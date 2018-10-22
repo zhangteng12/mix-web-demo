@@ -1,0 +1,15 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let video of videos;">
+      <a [routerLink]="['/course',video.id]">
+        <img src="{{video.images}}" alt="">
+        <h3>{{video.videoName}}</h3>
+        <p>{{video.thing}}</p>
+        <div>
+          <span>课时{{video.time}}</span>
+          <span>人数{{video.person}}</span>
+        </div>
+    </a>
+    </li>
+  </ul>
+</div>
