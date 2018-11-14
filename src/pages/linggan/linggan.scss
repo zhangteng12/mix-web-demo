@@ -1,0 +1,31 @@
+page-linggan {
+    .beauty{
+        position: relative;
+        .linggan2{
+            position: absolute;
+            width:50%;
+            opacity: 0.4;
+            margin-top:48px;
+            margin-left: 83px;
+        }
+        .linggan3{
+            position: absolute;
+            width:40%;
+            margin-left: 113px;
+            margin-top:36px;
+            opacity: 0.5;
+        }
+        h5{
+            position: absolute;
+            margin-top:-140px;
+            margin-left:130px;
+            color:rgb(248, 234, 234);
+        }
+        p{
+            position: absolute;
+            margin-top:-90px;
+            margin-left:80px;
+            color:rgb(248, 234, 234);
+        }
+    }
+}

@@ -1,0 +1,62 @@
+page-a {
+    ion-content{
+        .photo{ 
+            background-image: url("../../assets/imgs/bgimg.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            img{
+                width: 30%;
+                height:50%;
+                margin-left: 122px;
+                margin-top:13px;
+            }
+            p{
+                position: absolute;
+                margin-top:-40px;
+                margin-left:148px;
+                color:black;
+            }
+        }
+        ion-item{
+            .more{
+                margin-left:144px;
+            }
+        }
+        .things{
+            ion-col:hover{
+                background-color: rgb(247, 231, 19);
+            }
+            position: relative;
+            .top{
+                height:90px;
+                border: solid 1px rgb(230, 227, 227);
+                i{
+                    position: absolute;
+                    margin-left:28px;
+                    margin-top:15px;
+                }
+                p{
+                    position: absolute;
+                    margin-left:18px;
+                    margin-top:50px;
+                }
+            }
+            .bottom{
+                height:110px;
+                border: solid 1px rgb(230, 227, 227);
+                i{
+                    position: absolute;
+                    margin-left:53px;
+                    margin-top:32px;
+                }
+                p{
+                    position: absolute;
+                    text-align: center;
+                    margin-left:48px;
+                    margin-top:70px;
+                }
+            }
+        }
+        
+    }
+}
